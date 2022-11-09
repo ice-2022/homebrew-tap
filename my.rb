@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class MyCli < Formula
+class My < Formula
     desc ""
     homepage ""
     url "https://github.com/ice-2022/my-cli/releases/download/1.0.0/my-cli.tar.gz"
