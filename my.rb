@@ -2,10 +2,10 @@
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class My < Formula
-    desc ""
-    homepage ""
-    url "https://github.com/ice-2022/my-cli/releases/download/1.0.0/my-cli.tar.gz"
-    sha256 "89bea6064df0d5d106282fe62c4fb9c778e2bb77463fbdf3d6d9a8dd3833790d"
+    desc "a simple command line tool"
+    homepage "https://github.com/ice-2022/my-cli"
+    url "https://github.com/ice-2022/my-cli/releases/download/1.0.1/my-cli.tar.gz"
+    sha256 "445aa54a9373fa32a2a515d0dc70fddf83dc307716b23d221d8d8f83281f9a77"
     license ""
   
     # depends_on "cmake" => :build
