@@ -5,7 +5,7 @@ class My < Formula
     desc "a simple command line tool"
     homepage "https://github.com/ice-2022/my-cli"
     url "https://github.com/ice-2022/my-cli/releases/download/1.0.1/my-cli.tar.gz"
-    sha256 "445aa54a9373fa32a2a515d0dc70fddf83dc307716b23d221d8d8f83281f9a77"
+    sha256 "36ac74b010b3d24c5efdf7075b7f60af5f969a9d23a00b4f55165addd4355d64"
     license ""
   
     # depends_on "cmake" => :build
@@ -16,6 +16,7 @@ class My < Formula
       # https://rubydoc.brew.sh/Formula.html#std_configure_args-instance_method
       # system "./configure", *std_configure_args, "--disable-silent-rules"
       bin.install "my"
+      prefix.install Dir["resource/*"]
       # system "cmake", "-S", ".", "-B", "build", *std_cmake_args
     end
   
